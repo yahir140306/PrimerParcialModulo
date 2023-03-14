@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Lenguaje de Programación SQL</title>
+  </head>
+  <body>
+    <h1>Lenguaje de Programación SQL</h1>
+    <p>SQL (Structured Query Language) es un lenguaje de programación utilizado para manejar y manipular bases de datos relacionales. Fue creado en la década de 1970 por IBM, y es utilizado por una amplia variedad de sistemas de gestión de bases de datos, como Oracle, MySQL, Microsoft SQL Server y PostgreSQL.</p>
+    <h2>Ejemplo de Programa en SQL</h2>
+    <p>A continuación se muestra un ejemplo de código SQL que crea una tabla de empleados:</p>
+    <pre>
+      <code>
+CREATE TABLE empleados (
+    id INT PRIMARY KEY,
+    nombre VARCHAR(50),
+    apellido VARCHAR(50),
+    fecha_nacimiento DATE,
+    salario FLOAT
+);
+      </code>
+    </pre>
+    <p>Este código crea una tabla llamada "empleados" con cinco columnas: "id", "nombre", "apellido", "fecha_nacimiento" y "salario". La columna "id" es la clave principal de la tabla.</p>
+    <h2>Características de SQL</h2>
+    <p>Las características principales de SQL incluyen:</p>
+    <ul>
+      <li>Lenguaje de programación para bases de datos relacionales</li>
+      <li>Permite la manipulación de datos en las bases de datos</li>
+      <li>Permite la creación, modificación y eliminación de tablas y otros objetos en la base de datos</li>
+      <li>Permite la gestión de permisos y usuarios en la base de datos</li>
+      <li>Soporta la ejecución de consultas y filtros para recuperar datos específicos de la base de datos</li>
+      <li>Permite la creación de vistas, procedimientos almacenados y funciones en la base de datos</li>
+    </ul>
+    <h2>Tabla de Comandos Básicos de SQL</h2>
+    <table border="1">
+      <thead>
+        <tr>
+          <th>Comando</th>
+          <th>Descripción</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>SELECT</td>
+          <td>Recupera datos de la base de datos</td>
+        </tr>
+        <tr>
+          <td>INSERT</td>
+          <td>Inserta nuevos datos en la base de datos</td>
+        </tr>
+        <tr>
+          <td>UPDATE</td>
+          <td>Actualiza datos existentes en la base de datos</td>
+        </tr>
+        <tr>
+          <td>DELETE</td>
+          <td>Elimina datos existentes en la base de datos</td>
+        </tr>
+        <tr>
+          <td>CREATE</td>
+          <td>Crea una tabla o un objeto en la base de datos</td>
+        </tr>
+        <tr>
+          <td>ALTER</td>
+          <td>Modifica una tabla o un objeto existente en la base de datos</td>
+        </tr>
+        <tr>
+          <td>DROP</td>
+          <td>Elimina una tabla o un objeto existente en la base de datos</td>
+        </tr>
+      </tbody>
+    </table>
+    <style>
+        body{
+            background: deepskyblue;
+        }
+    </style>
+  </body>
+</html>

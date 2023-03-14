@@ -1,0 +1,312 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    position: relative;
+    font-size: 16px;
+    font-family: 'Kanit', sans-serif;
+    background: rgb(20,30,48);
+    background: linear-gradient(90deg, rgba(20,30,48,1) 0%, rgba(36,59,85,1) 50%, rgba(20,30,48,1) 100%);
+    color: rgb(255, 255, 255);
+    
+}
+
+a {
+    color: #ffff;
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+head {
+    width: 90%;
+    margin: auto;
+}
+
+nav {
+    font-size: 17px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    padding: 5px 0 20px;
+    margin: 25px;
+}
+
+img {
+    width: 50px;
+    height: 50px;
+    margin: 50px;
+}
+
+ul {
+    display: flex;
+}
+
+ul,
+li {
+    padding: 30px;
+}
+
+ul,
+li,
+a {
+    padding: 2px;
+    margin: 20px;
+}
+
+#ListaUno a:hover {
+    background: #093028;
+}
+
+ul {
+    flex: 2;
+    margin-left: 100px;
+}
+
+hr {
+    margin: 10px 0;
+}
+
+header {
+    width: 100%;
+    height: 540px;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    ),url(./Contenido/fondo2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding: 50px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+button {
+    cursor: pointer;
+    display: inline-block;
+    border: 0;
+    font-weight: bold;
+    padding: 10px 20px;
+    background: #262626;
+    color: #ffff;
+    font-size: 15px;
+    border: 1px solid #30cfd0;
+    margin: 10px 0;
+}
+
+button:hover {
+    opacity: .6;
+}
+
+header, h2, h3 {
+    margin-bottom: 10px;
+}
+
+.PrincipalLenguajes {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px;
+    margin: 10px 0;
+}
+
+.PrincipalLenguajes article {
+    background: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    );
+}
+
+.PrincipalLenguajes img {
+    width: 150px;
+    height: 150px;
+}
+
+.PrincipalLenguajes h2 {
+    font-size: 20px;
+    margin: 10px;
+    text-align: center;
+}
+
+.Hola2 {
+    width: 100%;
+    height: 540px;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    ),url(./Contenido/fondo4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding: 50px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.Hola2, h2{
+    font-size: 30px;
+}
+
+table {
+    width: 75%;
+    height: 40%;
+    margin-left: 175px;
+}
+
+table , th , td{
+    font-size: 30px;
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 5px;
+}
+
+th , td {
+    text-align: center;
+}
+
+/* renglones pares */
+tr:nth-child(even) {
+    background-color: #0F2027;
+}
+
+/* renglones impares*/
+tr:nth-child(odd) {
+    background-color: #2C5364;
+}
+
+#informacion {
+    font-size: 20px;
+}
+
+.Redes h2 {
+    text-align: center;
+    font-size: 40px;
+}
+
+.Redes li {
+    font-size: 30px;
+    margin: 0;
+    padding: 0;
+}
+
+.Redes img {
+    width: 100px;
+    height: 100px;
+}
+
+footer {
+    margin: 0 30px 0;
+    font-size: 20px;
+    background: #141e30;
+    text-align: center;
+}
+
+footer p {
+    font-size: 10px;
+}
+
+.Redes li{
+    margin-left: 60px ;
+}
+
+.wave {
+
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 75px;
+}
+
+/****Bienvenida Maquina De Escribir****/
+#Hola {
+    display: block;
+    font-family: monospace;
+    white-space: nowrap;
+    border-right: 4px solid;
+    width: 48ch;
+    animation: typing 8s steps(48), blink .5s infinite step-end alternate;
+    overflow: hidden;
+}
+
+@keyFrames typing {
+
+    from {
+        width: 0
+    }
+}
+
+@keyFrames blink {
+    50% {
+        border-color: transparent
+    }
+}
+
+
+/**input**/
+form {
+    margin: 0 auto;
+    width: 400px;
+    border: 2px solid #edc0c0;
+    border-radius: 1em;
+}
+
+label span {
+    display: inline-block;
+    width: 120px;
+    text-align: right;
+}
+
+input,
+textarea {
+    font: 1em sans-serif;
+    width: 250px;
+    box-sizing: border-box;
+    border: 1px solid #999;
+}
+
+input[type=checkbox],
+input[type=radio] {
+    width: auto;
+    border: none;
+}
+
+input:focus,
+textarea:focus {
+    border-color: #000;
+}
+
+textarea {
+    vertical-align: top;
+    height: 5em;
+    resize: vertical;
+}
+
+fieldset {
+    width: 250px;
+    box-sizing: border-box;
+    margin-right: 136px;
+    border: 1px solid #999;
+}
+
+button {
+    margin: 20px 0 0 124px;
+}
+
+label {
+    position: relative;
+}
